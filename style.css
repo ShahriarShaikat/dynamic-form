@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+}
+.container {
+  width: 40%;
+  margin: 100px auto;
+}
+.form-header,
+.field-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.field-section {
+  box-sizing: border-box;
+  padding: 20px 10px;
+  background-color: beige;
+  margin-bottom: 10px;
+}
+.form-header h1 {
+  text-align: center;
+  color: green;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(226, 224, 220);
+  font-size: 17px;
+}
+.btn {
+  width: 100px;
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(226, 224, 220);
+  font-size: 17px;
+}
+form {
+  padding: 30px 20px;
+  background-color: rgb(240, 237, 234);
+  border-radius: 8px;
+}
+.button-group {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+.field-group {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+.field-group input {
+  margin-bottom: 6px;
+}
+.main-button-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-submit {
+  text-align: center;
+}
+.danger {
+  background-color: red;
+}
+.primary {
+  background-color: blue;
+}
+.success {
+  background-color: green;
+}
